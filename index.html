@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Paola Pappa Peluquería — Cortes exclusivos, balayage, colorimetría, peinados y tratamientos capilares de alta gama. Reservá tu turno online.">
+  <title>Paola Pappa Peluquería — Estilo, Color & Vanguardia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="img/logo-paola-pappa.png">
+</head>
+
+<body>
+
+  <!-- ═══════════════════ TOP BAR ANNOUNCEMENT ═══════════════════ -->
+  <div class="top-announcement">
+    <div class="container top-bar-content">
+      <span>✨ <strong>Promo Temporada:</strong> 15% OFF en Balayage y Tratamientos de Nutrición de Martes a
+        Jueves</span>
+      <a href="#turnos" class="top-bar-link">Aprovechar Promo &rarr;</a>
+    </div>
+  </div>
+
+  <!-- ═══════════════════ NAVBAR ═══════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-brand">
+        <img src="img/logo-paola-pappa.png" alt="Paola Pappa Peluquería" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-name">Paola Pappa</span>
+          <span class="brand-sub">PELUQUERÍA</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#trabajos" class="nav-link">Trabajos</a></li>
+        <li><a href="#nosotros" class="nav-link">El Salón</a></li>
+        <li><a href="#opiniones" class="nav-link">Opiniones</a></li>
+        <li><a href="#contacto" class="nav-link">Ubicación</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#turnos" class="btn btn-primary nav-btn-turno">Pedir Turno</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg-decor">
+      <div class="hero-circle-accent"></div>
+      <div class="hero-grain"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-text-content">
+        <div class="hero-badge">
+          <span class="hero-badge-pill">Salón Femenino</span>
+          <span>Atendido personalmente por Paola y Pauli</span>
+        </div>
+
+        <h1 class="hero-title">
+          Tu cabello, <br>
+          <span class="hero-highlight">tu identidad.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          En <strong>Paola Pappa Peluquería</strong> transformamos tu imagen con técnicas de vanguardia,
+          asesoramiento personalizado de <strong>Paola y Pauli</strong> y productos de primera línea internacional.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#turnos" class="btn btn-primary btn-lg">
+            <span>Reservar Mi Turno</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="#trabajos" class="btn btn-outline btn-lg">
+            <span>Ver Nuestros Trabajos</span>
+          </a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="trust-stars">
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+          </div>
+          <span class="trust-rating">4.9 / 5</span>
+          <span class="trust-divider">|</span>
+          <span class="trust-reviews">Más de 850 clientas satisfechas</span>
+        </div>
+      </div>
+
+      <div class="hero-visual-wrapper">
+        <div class="hero-image-card">
+          <img src="img/WhatsApp Image 2026-10-23 at 13.48.00.jpeg" alt="Estilo y Color en Paola Pappa"
+            class="hero-main-img">
+
+          <div class="hero-floating-badge badge-brand">
+            <img src="img/logo-paola-pappa.png" alt="Emblema Paola Pappa" class="badge-emblem">
+            <div>
+              <strong>Paola & Pauli</strong>
+              <small>Estilistas Profesionales</small>
+            </div>
+          </div>
+
+          <div class="hero-floating-badge badge-schedule">
+            <span class="badge-icon">📍</span>
+            <div>
+              <strong>Martes a Sábados</strong>
+              <small>09:00 a 15:30 hs</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ STRIP BANNER ═══════════════════ -->
+  <section class="perks-strip">
+    <div class="container perks-container">
+      <div class="perk-item">
+        <div class="perk-icon">✨</div>
+        <div class="perk-text">
+          <h4>Diagnóstico Personalizado</h4>
+          <p>Evaluamos tu fibra capilar antes de cada tratamiento</p>
+        </div>
+      </div>
+      <div class="perk-item">
+        <div class="perk-icon">🧴</div>
+        <div class="perk-text">
+          <h4>Líneas Premium</h4>
+          <p>Cuidado con productos importados de primera línea</p>
+        </div>
+      </div>
+      <div class="perk-item">
+        <div class="perk-icon">☕</div>
+        <div class="perk-text">
+          <h4>Experiencia Relax</h4>
+          <p>Café de cortesía, música y ambiente pensado para vos</p>
+        </div>
+      </div>
+      <div class="perk-item">
+        <div class="perk-icon">📅</div>
+        <div class="perk-text">
+          <h4>Puntualidad en Turnos</h4>
+          <p>Tu tiempo vale: atención en horario sin demoras</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ SERVICIOS ═══════════════════ -->
+  <section class="services-section" id="servicios">
+    <div class="container">
+      <div class="section-heading text-center">
+        <span class="section-subtitle-tag">Nuestra Carta</span>
+        <h2 class="section-title">Servicios Exclusivos</h2>
+        <p class="section-description">
+          Cada servicio está diseñado para resaltar tu belleza natural y garantizar la salud de tu cabello.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Servicio 1: Cortes -->
+        <div class="service-card">
+          <div class="service-card-header">
+            <span class="service-icon-circle">✂️</span>
+            <span class="service-duration">45 min</span>
+          </div>
+          <h3 class="service-name">Corte & Styling</h3>
+          <p class="service-desc">
+            Corte femenino y diseño de puntas adaptado a la morfología de tu rostro. Incluye lavado relajante con masaje
+            capilar y peinado final.
+          </p>
+          <div class="service-footer">
+            <span class="service-price">Desde $6.500</span>
+            <a href="#turnos" class="service-link" onclick="preselectService('Corte & Styling')">Pedir turno &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Servicio 2: Balayage & Mechas -->
+        <div class="service-card featured-service">
+          <div class="service-badge-popular">Favorito</div>
+          <div class="service-card-header">
+            <span class="service-icon-circle">💫</span>
+            <span class="service-duration">2h 30m</span>
+          </div>
+          <h3 class="service-name">Balayage & Mechas</h3>
+          <p class="service-desc">
+            Técnica a mano alzada para lograr transiciones suaves y luz natural. Babylights, contouring capilar y
+            matización personalizada.
+          </p>
+          <div class="service-footer">
+            <span class="service-price">Desde $18.000</span>
+            <a href="#turnos" class="service-link" onclick="preselectService('Balayage & Mechas')">Pedir turno
+              &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Servicio 3: Colorimetría -->
+        <div class="service-card">
+          <div class="service-card-header">
+            <span class="service-icon-circle">🎨</span>
+            <span class="service-duration">1h 45m</span>
+          </div>
+          <h3 class="service-name">Colorimetría & Tintura</h3>
+          <p class="service-desc">
+            Cobertura 100% de canas, renovación de tono raíz, cobrizos radiantes, chocolates profundos y rubios sin
+            agredir la fibra capilar.
+          </p>
+          <div class="service-footer">
+            <span class="service-price">Desde $13.500</span>
+            <a href="#turnos" class="service-link" onclick="preselectService('Colorimetría & Tintura')">Pedir turno
+              &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Servicio 4: Tratamientos -->
+        <div class="service-card">
+          <div class="service-card-header">
+            <span class="service-icon-circle">💧</span>
+            <span class="service-duration">1h 15m</span>
+          </div>
+          <h3 class="service-name">Nutrición & Botox Capilar</h3>
+          <p class="service-desc">
+            Recuperación intensiva para cabellos secos o castigados. Aporta brillo espejo, sella cutículas y elimina el
+            frizz por semanas.
+          </p>
+          <div class="service-footer">
+            <span class="service-price">Desde $9.000</span>
+            <a href="#turnos" class="service-link" onclick="preselectService('Nutrición & Botox Capilar')">Pedir turno
+              &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Servicio 5: Peinados & Eventos -->
+        <div class="service-card">
+          <div class="service-card-header">
+            <span class="service-icon-circle">👑</span>
+            <span class="service-duration">1h 30m</span>
+          </div>
+          <h3 class="service-name">Peinados & Eventos</h3>
+          <p class="service-desc">
+            Producciones para novias, madrinas, egresadas y fiestas. Recogidos pulidos, ondas descontracturadas y
+            fijación duradera.
+          </p>
+          <div class="service-footer">
+            <span class="service-price">Desde $11.000</span>
+            <a href="#turnos" class="service-link" onclick="preselectService('Peinados & Eventos')">Pedir turno
+              &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Servicio 6: Alisados & Keratina -->
+        <div class="service-card">
+          <div class="service-card-header">
+            <span class="service-icon-circle">✨</span>
+            <span class="service-duration">2h 00m</span>
+          </div>
+          <h3 class="service-name">Alisado & Keratina</h3>
+          <p class="service-desc">
+            Tratamiento termoactivo para un lacio sedoso, brillante y sin frizz. Nutre profundamente la fibra capilar y
+            reduce el volumen por meses.
+          </p>
+          <div class="service-footer">
+            <span class="service-price">Desde $16.000</span>
+            <a href="#turnos" class="service-link" onclick="preselectService('Alisado & Keratina')">Pedir turno
+              &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ GALERÍA / TRABAJOS ═══════════════════ -->
+  <section class="gallery-section" id="trabajos">
+    <div class="container">
+      <div class="section-heading text-center">
+        <span class="section-subtitle-tag">Lookbook</span>
+        <h2 class="section-title">Nuestros Trabajos</h2>
+        <p class="section-description">
+          Resultados reales en nuestro salón. Inspirate para tu próximo cambio de look.
+        </p>
+
+        <!-- Filtros -->
+        <div class="gallery-filters" id="galleryFilters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="color">Color & Balayage</button>
+          <button class="filter-btn" data-filter="cortes">Cortes</button>
+          <button class="filter-btn" data-filter="peinados">Peinados</button>
+        </div>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Foto 1: Balayage -->
+        <div class="gallery-item" data-category="color">
+          <div class="gallery-card">
+            <img src="img/balayage.jpg" alt="Balayage Miel & Iluminación" class="gallery-img">
+            <div class="gallery-overlay">
+              <span class="gallery-badge">Color</span>
+              <h4 class="gallery-item-title">Balayage Honey Blonde</h4>
+              <p class="gallery-item-desc">Degradé natural con reflejos cálidos y acabado brillante.</p>
+              <button class="gallery-zoom-btn" onclick="openLightbox('img/balayage.jpg', 'Balayage Honey Blonde')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                Ver en detalle
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 2: Corte Bob -->
+        <div class="gallery-item" data-category="cortes">
+          <div class="gallery-card">
+            <img src="img/corte-bob.jpg" alt="Corte Bob Moderno y Ondas" class="gallery-img">
+            <div class="gallery-overlay">
+              <span class="gallery-badge">Cortes</span>
+              <h4 class="gallery-item-title">Corte Bob en Capas</h4>
+              <p class="gallery-item-desc">Movimiento, textura y frescura con ondas suaves.</p>
+              <button class="gallery-zoom-btn" onclick="openLightbox('img/corte-bob.jpg', 'Corte Bob en Capas')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                Ver en detalle
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 3: Color Cobre -->
+        <div class="gallery-item" data-category="color">
+          <div class="gallery-card">
+            <img src="img/color-cobre.jpg" alt="Coloración Cobriza y Flequillo" class="gallery-img">
+            <div class="gallery-overlay">
+              <span class="gallery-badge">Color</span>
+              <h4 class="gallery-item-title">Copper Glow & Flequillo</h4>
+              <p class="gallery-item-desc">Tono cobre vibrante con cortina de flequillo moderna.</p>
+              <button class="gallery-zoom-btn" onclick="openLightbox('img/color-cobre.jpg', 'Copper Glow & Flequillo')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                Ver en detalle
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 4: Peinado Recogido -->
+        <div class="gallery-item" data-category="peinados">
+          <div class="gallery-card">
+            <img src="img/recogido.jpg" alt="Peinado de Fiesta y Recogido" class="gallery-img">
+            <div class="gallery-overlay">
+              <span class="gallery-badge">Peinados</span>
+              <h4 class="gallery-item-title">Recogido Romántico de Gala</h4>
+              <p class="gallery-item-desc">Diseño exclusivo para eventos especiales y fiestas.</p>
+              <button class="gallery-zoom-btn" onclick="openLightbox('img/recogido.jpg', 'Recogido Romántico de Gala')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                Ver en detalle
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ SOBRE PAOLA PAPPA ═══════════════════ -->
+  <section class="about-section" id="nosotros">
+    <div class="container about-container">
+      <div class="about-image-column">
+        <div class="about-image-frame">
+          <img src="img/logo-paola-pappa.jpg" alt="Paola Pappa Peluquería" class="about-logo-photo">
+          <div class="about-experience-badge">
+            <span class="exp-number">+10</span>
+            <span class="exp-text">Años de Pasión & Estilo</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text-column">
+        <span class="section-subtitle-tag">Nuestra Historia</span>
+        <p class="about-lead">
+          En <strong>Paola Pappa Peluquería</strong> te recibimos <strong>Paola y Pauli</strong> con una atención
+          cálida, dedicada y exclusiva para mujeres. Creemos que tu cabello es la máxima expresión de tu personalidad.
+        </p>
+
+        <p class="about-paragraph">
+          Nos capacitamos constantemente en las últimas tendencias globales de corte femenino, colorimetría avanzada y
+          cuidado de la fibra capilar.
+          Trabajamos únicamente con productos certificados que protegen la salud de tu pelo, garantizando resultados
+          luminosos y duraderos.
+        </p>
+
+        <div class="about-features-list">
+          <div class="about-feat">
+            <span class="about-feat-check">✓</span>
+            <div>
+              <strong>Asesoramiento Visagista</strong>
+              <p>Analizamos tus facciones para recomendarte el corte y color que mejor te favorecen.</p>
+            </div>
+          </div>
+          <div class="about-feat">
+            <span class="about-feat-check">✓</span>
+            <div>
+              <strong>Ambiente Cálido & Exclusivo</strong>
+              <p>Espacios confortables, música agradable y atención cálida para que te relajes al 100%.</p>
+            </div>
+          </div>
+          <div class="about-feat">
+            <span class="about-feat-check">✓</span>
+            <div>
+              <strong>Garantía de Satisfacción</strong>
+              <p>Nos aseguramos de que te vayas enamorada de tu nuevo look.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-signature-row">
+          <img src="img/logo-paola-pappa.png" alt="Firma Paola Pappa" class="signature-emblem">
+          <div>
+            <h4 class="signature-name">Paola & Pauli</h4>
+            <span class="signature-title">Estilistas & Coloristas Profesionales</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ RESERVAR TURNO ═══════════════════ -->
+  <section class="booking-section" id="turnos">
+    <div class="container">
+      <div class="booking-wrapper">
+        <div class="booking-info-pane">
+          <div class="booking-info-badge">
+            <img src="img/logo-paola-pappa.png" alt="Paola Pappa" class="booking-badge-logo">
+            <span>Agenda Online</span>
+          </div>
+
+          <h2 class="booking-pane-title">Reservá tu turno en simples pasos</h2>
+          <p class="booking-pane-desc">
+            Elegí el servicio que querés realizarte y seleccioná el día y horario que te quede más cómodo.
+            Te responderemos al instante para confirmar tu cita.
+          </p>
+
+          <div class="booking-perks">
+            <div class="b-perk">
+              <span class="b-perk-icon">💇‍♀️</span>
+              <div>
+                <strong>Atendido por Paola y Pauli</strong>
+                <p>Atención personalizada y asesoramiento visagista</p>
+              </div>
+            </div>
+            <div class="b-perk">
+              <span class="b-perk-icon">📱</span>
+              <div>
+                <strong>Confirmación directa</strong>
+                <p>Te enviamos los datos del turno a tu WhatsApp</p>
+              </div>
+            </div>
+            <div class="b-perk">
+              <span class="b-perk-icon">⏰</span>
+              <div>
+                <strong>Recordatorio el día anterior</strong>
+                <p>Para que no olvides tu momento de cuidado</p>
+              </div>
+            </div>
+            <div class="b-perk">
+              <span class="b-perk-icon">💳</span>
+              <div>
+                <strong>Medios de pago disponibles</strong>
+                <p>Efectivo, Transferencia, Débito y Tarjetas de Crédito</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="direct-whatsapp-box">
+            <span>¿Preferís consultar por WhatsApp directamente?</span>
+            <a href="https://wa.me/5491123456789?text=Hola%20Paola%20Pappa,%20quisiera%20consultar%20por%20un%20turno"
+              target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-direct">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.592 2.654-.696c.969.541 1.808.835 2.806.835 3.18 0 5.767-2.587 5.767-5.766.001-3.182-2.585-5.768-5.767-5.768zm3.385 8.167c-.145.409-.841.777-1.164.827-.323.05-.737.072-2.227-.545-1.782-.74-2.91-2.55-2.998-2.668-.088-.118-.729-.97-.729-1.85 0-.88.461-1.312.625-1.492.164-.18.358-.225.478-.225.12 0 .239.002.343.007.108.005.253-.041.396.3.145.344.498 1.213.541 1.302.044.09.073.195.015.311-.058.117-.087.19-.174.292-.088.102-.185.228-.264.307-.088.087-.18.182-.078.357.102.175.454.749.974 1.212.67.596 1.235.78 1.41.867.175.088.277.073.38-.044.102-.117.439-.512.556-.688.117-.175.234-.146.395-.088.161.059 1.023.483 1.198.57.175.088.292.132.336.205.044.073.044.424-.101.833z" />
+              </svg>
+              Escribinos al WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="booking-form-pane">
+          <form class="booking-form" id="bookingForm">
+            <h3 class="form-title">Completá tus datos</h3>
+
+            <div class="form-group">
+              <label for="clientName">Nombre y Apellido *</label>
+              <input type="text" id="clientName" placeholder="Ej: Valentina Morales" required>
+            </div>
+
+            <div class="form-group">
+              <label for="clientPhone">Teléfono / WhatsApp *</label>
+              <input type="tel" id="clientPhone" placeholder="Ej: 11 4455-6677" required>
+            </div>
+
+            <div class="form-group">
+              <label for="serviceSelect">Servicio Deseado *</label>
+              <select id="serviceSelect" required>
+                <option value="" disabled selected>Seleccioná una opción</option>
+                <option value="Corte & Styling">✂️ Corte & Styling (Desde $6.500)</option>
+                <option value="Balayage & Mechas">💫 Balayage & Mechas (Desde $18.000)</option>
+                <option value="Colorimetría & Tintura">🎨 Colorimetría & Tintura (Desde $13.500)</option>
+                <option value="Nutrición & Botox Capilar">💧 Nutrición & Botox Capilar (Desde $9.000)</option>
+                <option value="Peinados & Eventos">👑 Peinados & Eventos (Desde $11.000)</option>
+                <option value="Alisado & Keratina">✨ Alisado & Keratina (Desde $16.000)</option>
+                <option value="Otro / Asesoramiento">✨ Asesoramiento / Varios</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="stylistSelect">Estilista de preferencia</label>
+              <select id="stylistSelect">
+                <option value="indistinto" selected>Indistinto (Paola o Pauli)</option>
+                <option value="paola">Paola</option>
+                <option value="pauli">Pauli</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="bookingDate">Fecha deseada *</label>
+                <input type="date" id="bookingDate" required>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingTime">Horario preferido *</label>
+                <select id="bookingTime" required>
+                  <option value="" disabled selected>Elegí horario</option>
+                  <option value="09:00">09:00 hs</option>
+                  <option value="10:00">10:00 hs</option>
+                  <option value="11:00">11:00 hs</option>
+                  <option value="12:00">12:00 hs</option>
+                  <option value="14:00">14:00 hs</option>
+                  <option value="15:00">15:00 hs</option>
+                  <option value="16:00">16:00 hs</option>
+                  <option value="17:00">17:00 hs</option>
+                  <option value="18:00">18:00 hs</option>
+                  <option value="19:00">19:00 hs</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="clientNotes">Comentarios adicionales (opcional)</label>
+              <textarea id="clientNotes" rows="2" placeholder="Ej: Quiero retocar raíces y puntas secas..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="bookingSubmit">
+              <span class="btn-text">Confirmar Solicitud de Turno</span>
+              <span class="btn-loader" style="display:none;">
+                <span class="spinner"></span> Enviando solicitud...
+              </span>
+            </button>
+
+            <p class="form-note">
+              🔒 Tus datos son confidenciales y solo se usan para coordinar tu turno en el salón.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ OPINIONES ═══════════════════ -->
+  <section class="reviews-section" id="opiniones">
+    <div class="container">
+      <div class="section-heading text-center">
+        <span class="section-subtitle-tag">Experiencias</span>
+        <h2 class="section-title">Lo que dicen nuestras clientas</h2>
+        <p class="section-description">
+          La confianza y las sonrisas de quienes nos eligen día a día son nuestro mayor orgullo.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">
+            "Fui por primera vez a hacerme un balayage y quedé fascinada. Paola y las chicas te tratan como una reina, y
+            el pelo me quedó suave, con un color soñado y cero dañado."
+          </p>
+          <div class="review-author">
+            <div class="author-avatar-circle">ML</div>
+            <div>
+              <strong>Mariana Lucero</strong>
+              <span>Balayage & Nutrición</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card featured-review">
+          <div class="review-badge-top">Cliente Habitual</div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">
+            "Paola tiene unas manos mágicas. Me cambió el corte por un bob con flequillo y todo el mundo me elogió el
+            look. La puntualidad y la limpieza del salón son impecables."
+          </p>
+          <div class="review-author">
+            <div class="author-avatar-circle">CR</div>
+            <div>
+              <strong>Camila Rodriguez</strong>
+              <span>Corte Bob & Brushing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">
+            "Paola y Pauli son unas genias totales. Me hicieron un cambio de look soñado con balayage y alisado, y el
+            pelo me quedó ultra brillante y súper sano. ¡La mejor peluquería de mujeres!"
+          </p>
+          <div class="review-author">
+            <div class="author-avatar-circle">DG</div>
+            <div>
+              <strong>Daniela Giménez</strong>
+              <span>Balayage & Alisado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CONTACTO & UBICACIÓN ═══════════════════ -->
+  <section class="contact-section" id="contacto">
+    <div class="container">
+      <div class="contact-card-box">
+        <div class="contact-details">
+          <span class="section-subtitle-tag">Visitanos</span>
+          <h2 class="section-title">Estamos para recibirte</h2>
+          <p class="contact-intro">Vení a relajarte y disfrutar de un momento pensado exclusivamente para vos.</p>
+
+          <div class="contact-list">
+            <div class="c-item">
+              <span class="c-icon">📍</span>
+              <div>
+                <strong>Dirección</strong>
+                <p>Av. Principal 1420 (Entre Rosales y Mitre)</p>
+              </div>
+            </div>
+
+            <div class="c-item">
+              <span class="c-icon">⏰</span>
+              <div>
+                <strong>Días & Horarios</strong>
+                <p>Martes a Sábados: 09:00 a 15:30 hs <br><small>(Domingos y Lunes cerrado)</small></p>
+              </div>
+            </div>
+
+            <div class="c-item">
+              <span class="c-icon">📞</span>
+              <div>
+                <strong>Teléfono & WhatsApp</strong>
+                <p>+54 9 11 2345-6789</p>
+              </div>
+            </div>
+
+            <div class="c-item">
+              <span class="c-icon">📸</span>
+              <div>
+                <strong>Instagram</strong>
+                <p>@paolapappa.peluqueria</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-buttons-row">
+            <a href="https://wa.me/5491123456789" target="_blank" rel="noopener noreferrer"
+              class="btn btn-whatsapp-direct">
+              Escribir por WhatsApp
+            </a>
+            <a href="#turnos" class="btn btn-outline">
+              Agendar Turno Online
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-map-mockup">
+          <div class="map-card-interior">
+            <img src="img/logo-paola-pappa.png" alt="Paola Pappa Peluquería" class="map-logo-pin">
+            <h4>Paola Pappa Peluquería</h4>
+            <p>Av. Principal 1420</p>
+            <div class="map-status-pill">Abierto Ahora</div>
+            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="map-directions-btn">
+              Cómo llegar &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-block">
+          <a href="#inicio" class="footer-logo-link">
+            <img src="img/logo-paola-pappa.png" alt="Paola Pappa Peluquería" class="footer-logo-img">
+            <div>
+              <span class="footer-brand-title">Paola Pappa</span>
+              <span class="footer-brand-sub">PELUQUERÍA</span>
+            </div>
+          </a>
+          <p class="footer-brand-text">
+            Salón de diseño capilar, colorimetría y tratamientos de alta gama. Pasión por cuidar tu cabello y resaltar
+            tu estilo personal.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <h5>Navegación</h5>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#trabajos">Lookbook</a></li>
+            <li><a href="#nosotros">El Salón</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h5>Servicios</h5>
+          <ul>
+            <li><a href="#servicios">Cortes & Styling</a></li>
+            <li><a href="#servicios">Balayage & Mechas</a></li>
+            <li><a href="#servicios">Colorimetría</a></li>
+            <li><a href="#servicios">Botox & Nutrición</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h5>Contacto</h5>
+          <ul>
+            <li><a href="https://wa.me/5491123456789">WhatsApp: +54 9 11 2345-6789</a></li>
+            <li><a href="#contacto">Av. Principal 1420</a></li>
+            <li><a href="#contacto">Mar a Sáb: 09:00 - 20:00</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Paola Pappa Peluquería. Todos los derechos reservados.</p>
+        <div class="footer-legal-links">
+          <a href="#inicio">Términos & Condiciones</a>
+          <a href="#inicio">Política de Privacidad</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════ LIGHTBOX MODAL ═══════════════════ -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-backdrop" onclick="closeLightbox()"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeLightbox()" aria-label="Cerrar">&times;</button>
+      <img src="" alt="Trabajo realizado" class="lightbox-img" id="lightboxImage">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════ FLOATING WHATSAPP BUTTON ═══════════════════ -->
+  <a href="https://wa.me/5491123456789?text=Hola%20Paola%20Pappa,%20quisiera%20consultar%20por%20un%20turno"
+    class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+      <path
+        d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.592 2.654-.696c.969.541 1.808.835 2.806.835 3.18 0 5.767-2.587 5.767-5.766.001-3.182-2.585-5.768-5.767-5.768zm3.385 8.167c-.145.409-.841.777-1.164.827-.323.05-.737.072-2.227-.545-1.782-.74-2.91-2.55-2.998-2.668-.088-.118-.729-.97-.729-1.85 0-.88.461-1.312.625-1.492.164-.18.358-.225.478-.225.12 0 .239.002.343.007.108.005.253-.041.396.3.145.344.498 1.213.541 1.302.044.09.073.195.015.311-.058.117-.087.19-.174.292-.088.102-.185.228-.264.307-.088.087-.18.182-.078.357.102.175.454.749.974 1.212.67.596 1.235.78 1.41.867.175.088.277.073.38-.044.102-.117.439-.512.556-.688.117-.175.234-.146.395-.088.161.059 1.023.483 1.198.57.175.088.292.132.336.205.044.073.044.424-.101.833z" />
+    </svg>
+    <span class="whatsapp-tooltip">¡Escribinos!</span>
+  </a>
+
+  <!-- ═══════════════════ TOAST NOTIFICATION ═══════════════════ -->
+  <div class="toast" id="toast">
+    <div class="toast-icon">✨</div>
+    <div class="toast-content">
+      <strong id="toastTitle">¡Solicitud recibida!</strong>
+      <p id="toastMessage">Nos comunicaremos a la brevedad para coordinar tu cita.</p>
+    </div>
+    <button class="toast-close" onclick="hideToast()">&times;</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
